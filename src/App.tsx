@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 import { useState, useEffect } from "react";
 
-const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLScGzUNFmndP5f8HF8_qlwjEKLKC7pBb4M05Qic30pqB53Cnbw/viewform?fbclid=IwY2xjawRHbkZleHRuA2FlbQIxMQBicmlkETE1d0JrbG8yNnRDWmp6UmU4c3J0YwZhcHBfaWQBMAABHlOhaT245eUQVZ3_bupLtD9eabdHEqNHL9bjotFcbjp6PMmGjeUp7Obwc70P_aem_1dmI9290y1vU-FJkwHoz1Q";
+const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfMCt0w034W9JP6peLv62p5zTvpeYfyPNNnStEsy8f5T5TnUg/viewform";
 const WHATSAPP_URL = "https://wa.me/5548988679214";
 const INSTAGRAM_URL = "https://www.instagram.com/jessica_kleinowski/";
 const TIKTOK_URL = "https://www.tiktok.com/@jessica_kleinowski?_r=1&_t=ZS-95SMJjH3n0u&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExNXdCa2xvMjZ0Q1pqelJlOHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4n-AQCEfFpBCColsDcODgP0PAdeyo7eMUQPHYm55-7bOlytkuvCJgerurR_w_aem_lhH_Gw92bKPzGSvpAys6uQ";
