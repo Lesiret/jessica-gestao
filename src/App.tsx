@@ -21,8 +21,8 @@ import {
 } from "lucide-react";
 import { useState, useEffect } from "react";
 
-const FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfMCt0w034W9JP6peLv62p5zTvpeYfyPNNnStEsy8f5T5TnUg/viewform";
-const WHATSAPP_URL = "https://wa.me/5548988679214";
+const FORM_URL = "https://forms.gle/mfrHeV8yoGdKM7cR9";
+const WHATSAPP_URL = "https://api.whatsapp.com/message/4REJEPEL7AIJC1?autoload=1&app_absent=0";
 const INSTAGRAM_URL = "https://www.instagram.com/jessica_kleinowski/";
 const TIKTOK_URL = "https://www.tiktok.com/@jessica_kleinowski?_r=1&_t=ZS-95SMJjH3n0u&fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExNXdCa2xvMjZ0Q1pqelJlOHNydGMGYXBwX2lkEDIyMjAzOTE3ODgyMDA4OTIAAR4n-AQCEfFpBCColsDcODgP0PAdeyo7eMUQPHYm55-7bOlytkuvCJgerurR_w_aem_lhH_Gw92bKPzGSvpAys6uQ";
 
@@ -204,10 +204,10 @@ export default function App() {
               Consultoria e gestão administrativa para pequenas empresas que querem sair do caos e crescer com estrutura.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="btn-outline flex items-center justify-center gap-2">
+              <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="btn-outline flex items-center justify-center gap-2 bg-white">
                 Preencher Formulário <ArrowRight className="w-4 h-4" />
               </a>
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-outline flex items-center justify-center gap-2">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-outline flex items-center justify-center gap-2 bg-white">
                 Falar no WhatsApp <Phone className="w-4 h-4" />
               </a>
             </div>
@@ -271,10 +271,10 @@ export default function App() {
           <div className="relative w-full max-w-[320px] md:max-w-[450px] lg:max-w-none mx-auto">
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-[3/4] rounded-full bg-brand-gold/20 overflow-hidden">
-                <img src="/images/img1.png" alt="Productivity" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
+                <img src="https://picsum.photos/seed/productivity/400/600" alt="Productivity" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
               </div>
               <div className="aspect-[3/4] rounded-full bg-brand-brown/20 overflow-hidden mt-8 lg:mt-12">
-                <img src="/images/img2.png" alt="Focus" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
+                <img src="https://picsum.photos/seed/focus/400/600" alt="Focus" className="w-full h-full object-cover grayscale" referrerPolicy="no-referrer" />
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@ export default function App() {
               ))}
             </div>
             <div className="mt-12">
-              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-outline inline-flex items-center gap-2">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-primary inline-flex items-center gap-2">
                 Quero saber mais <ArrowRight className="w-4 h-4" />
               </a>
             </div>
@@ -350,7 +350,7 @@ export default function App() {
             Escolha a melhor forma de darmos o primeiro passo juntos.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center">
-            <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="btn-outline px-10">
+            <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="btn-outline px-10 bg-white">
               Preencher Formulário
             </a>
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-outline px-10 bg-white">
